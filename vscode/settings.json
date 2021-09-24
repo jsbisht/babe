@@ -1,0 +1,40 @@
+{
+    "window.titleBarStyle": "custom",
+    "markdown.preview.fontSize": 16,
+    "editor.fontSize": 13,
+    "editor.minimap.enabled": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "tabnine.experimentalAutoImports": true,
+    "editor.tabSize": 2,
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.fontSize": 12,
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.renderControlCharacters": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#f24df869",
+        "editor.wordHighlightStrongBackground": "#f24df869",
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.tabs.enabled": false,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Horizon Bright",
+    "jest.autoRun": {},
+    "diffEditor.renderSideBySide": false,
+    "editor.snippetSuggestions": "top"
+}

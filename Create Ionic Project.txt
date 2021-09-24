@@ -1,0 +1,14 @@
+Install ionic and cordova
+Install java
+Install android studio
+
+set environment variables:
+sudo gedit /etc/environment
+ANDROID_HOME="$HOME/Softwares/android/Sdk"
+JAVA_HOME="/usr/lib/jvm/jdk1.7.0/"
+PATH="  :$ANDROID_HOME/tools"
+
+
+ionic start CreepyChat blank --v2
+ionic platform add android
+ionic serve

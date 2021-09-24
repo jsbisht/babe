@@ -1,0 +1,15 @@
+To connect to the remote mongodb server, connect using the URI containing the database name, username and password.
+
+Once connected, right click on the database name and choose 'Open Intellisense' to open mongo shell. This saves us from choosing user, database and other hassels.
+
+
+To update an document from the collection, first do a find and then do an update. Eg.
+
+> db.templateClln.find({'data.title':'Home', "humandate" : "30 Oct 2016"})
+
+> db.templateClln.update({'data.title':'Home', "humandate" : "30 Oct 2016"}, {$set: {'data.title':'Bhai Home'}})
+
+
+To modify schema change:
+
+> db.templateClln.find({'type':'NOTE', 'data.tags.taglist.1':{$exists: true}})
